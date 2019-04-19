@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="padding_xxsmall">2dp</dimen>
+    <dimen name="padding_xsmall">4dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_smallMedium">12dp</dimen>
+    <dimen name="padding_smallMedium_negative">-12dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_mediumIntermediate">20dp</dimen>
+    <dimen name="padding_mediumLarge">24dp</dimen>
+    <dimen name="padding_large">32dp</dimen>
+    <dimen name="padding_large2">48dp</dimen>
+    <dimen name="padding_large2_negative">-48dp</dimen>
+
+    <dimen name="padding_large3">56dp</dimen>
+    <dimen name="padding_xlarge">64dp</dimen>
+    <dimen name="padding_xlarge_negative">-64dp</dimen>
+    <dimen name="padding_xlarge2">72dp</dimen>
+    <dimen name="padding_xxlarge">80dp</dimen>
+    <dimen name="padding_xxxlarge">96dp</dimen>
+
+    <dimen name="text_inner_body_blue">16sp</dimen>
+    <dimen name="text_xxsmall">8sp</dimen>
+    <dimen name="text_xsmall">12sp</dimen>
+    <dimen name="text_small">16sp</dimen>
+    <dimen name="text_smallMedium">18sp</dimen>
+    <dimen name="text_medium">20sp</dimen>
+    <dimen name="text_large">24sp</dimen>
+    <dimen name="text_xlarge">28sp</dimen>
+    <dimen name="text_xxlarge">32sp</dimen>
+    <dimen name="text_xxxlarge">48sp</dimen>
+
+    <dimen name="tab_height">60dp</dimen>
+
+    <dimen name="cardview_height">100dp</dimen>
+    <dimen name="cardview_medium_margin">10dp</dimen>
+    <dimen name="cardview_corner_radius">8dp</dimen>
+    <dimen name="cardview_elevation">10dp</dimen>
+
+</resources>

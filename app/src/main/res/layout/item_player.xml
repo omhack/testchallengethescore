@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:id="@+id/cardPlayer"
+                                                   android:background="@android:color/transparent"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="@dimen/cardview_height"
+                                                   android:layoutMode="clipBounds"
+                                                   android:layout_margin="@dimen/padding_small"
+                                                   app:cardCornerRadius="@dimen/cardview_corner_radius"
+                                                   app:cardElevation="0dp">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:id="@+id/tvPlayerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/design_default_color_primary_dark"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:text="@string/player_name"
+                android:layout_margin="@dimen/padding_small"
+                android:gravity="center"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/padding_small"
+                android:gravity="center">
+            <TextView
+                    android:id="@+id/tvPosition"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/holo_orange_dark"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:text="@string/position"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/padding_small"
+                    android:gravity="center"/>
+            <TextView
+                    android:id="@+id/tvNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/holo_blue_dark"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:text="@string/number"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/padding_small"
+                    android:gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NbaTab" parent="android:TextAppearance.Widget.TextView">
+        <item name="android:fontFamily">@font/founders_grotesk_app_regular</item>
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="NbaTabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabIndicatorColor">@color/colorPrimaryDark</item>
+        <item name="tabTextColor">@color/midGray</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabPaddingStart">@dimen/padding_mediumLarge</item>
+        <item name="tabPaddingEnd">@dimen/padding_mediumLarge</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabSelectedTextColor">@color/colorPrimaryDark</item>
+        <item name="tabTextAppearance">@style/NbaTab</item>
+        <item name="tabMode">scrollable</item>
+    </style>
+
+</resources>

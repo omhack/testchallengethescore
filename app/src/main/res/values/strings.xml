@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NBA Team Viewer</string>
+    <string name="team_name">Team Name</string>
+    <string name="wins">Wins: %s</string>
+    <string name="losses">Losses: %s</string>
+    <string name="roster">Roster</string>
+    <string name="player_name">%s %s</string>
+    <string name="position">Position: %s</string>
+    <string name="number">Number: %s</string>
+</resources>
